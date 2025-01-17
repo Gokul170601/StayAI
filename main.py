@@ -6,10 +6,10 @@ from backend.agents.simple_agent_framework.browser_agent import BrowserAgent
 
 if __name__ == "__main__":
     
-    # add_pdf_to_chroma(
-    #     pdf_path="/Users/arkajitdatta/Documents/projects/springboard/embedding/pdfs/jaipur_wiki.pdf"
-    # )
-    # chat_with_travel_assistant()
+    add_pdf_to_chroma(
+        pdf_path=r"C:\Users\Administrator\OneDrive\Desktop\infy\Manali.pdf"
+    )
+    chat_with_travel_assistant()
     
     # tool = BrowserTool()
     # results = tool.search("Give me some information about places to visit in Jaipur")
@@ -17,5 +17,5 @@ if __name__ == "__main__":
     # summary = tool.summarize_snippets(snippets)
     # print(summary)
     
-    agent = BrowserAgent()
-    agent.run("Give me some information about places to visit in Jaipur")
+    # agent = BrowserAgent()
+    # agent.run("Give me some information about places to visit in Jaipur")
